@@ -59,15 +59,15 @@ export const AppProvider = ({ children }) => {
 
             // default
             return {
-                name: "Setsuna",
-                id: "setsuna",
-                tag: "Nijigasaki",
-                message: "ermmm... what the sigma?",
-                "background-src": "/img/background_special/25ji-sekai.png",
+                name: "Ruby",
+                id: "ruby",
+                tag: "Aqours",
+                message: "Onee-chan, please help me...",
+                "background-src": "/img/background_special/mmj-sekai.png",
                 costume: "0dn3eg",
                 expression: {
-                    eye: 11,
-                    mouth: 9,
+                    eye: 8,
+                    mouth: 5,
                 },
             };
         };
