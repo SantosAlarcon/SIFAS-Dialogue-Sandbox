@@ -21,7 +21,10 @@ const BackgroundSidebar = () => {
                     id="background-upload"
                     uploadFunction={async (file) => {
                         const imageSrc = URL.createObjectURL(file);
-                        const image = await loadImage(imageSrc, "Changed sprite: background");
+                        const image = await loadImage(
+                            imageSrc,
+                            "Changed sprite: background",
+                        );
                         setBackground(image);
                     }}
                     text={
@@ -31,6 +34,11 @@ const BackgroundSidebar = () => {
                         </>
                     }
                 />
+            </div>
+            <div className="group justify-center center">
+                <a href="https://sekai-stories.pages.dev" target="_blank">
+                    <img src="miku_pjsk_chibi.png" alt="ad" />
+                </a>
             </div>
         </div>
     );
